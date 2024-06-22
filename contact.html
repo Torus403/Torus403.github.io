@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me - Jack's Portfolio</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+            }
+
+            nav ul {
+                padding: 0;
+                list-style: none;
+                text-align: center;
+            }
+
+            nav ul li {
+                display: inline;
+                margin: 0 10px;
+            }
+
+            .hero,
+            .contact-section {
+                padding: 2rem 0;
+            }
+
+            .hero {
+                text-align: center;
+            }
+
+            main {
+                flex: 1;
+            }
+
+            footer {
+                text-align: center;
+                padding: 1rem 0;
+                border-top: 1px solid #ddd;
+            }
+
+            .contact-info {
+                margin-bottom: 2rem;
+            }
+
+            .google-form {
+                width: 100%;
+                height: 800px;
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <header class="hero">
+                <div class="container">
+                    <h1>Contact Me</h1>
+                </div>
+            </header>
+
+            <section class="contact-section">
+                <div class="container">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+                        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile"
+                                target="_blank">linkedin.com/in/your-profile</a></p>
+                    </div>
+
+                    <div class="google-form-container">
+                        <h2>Send Me a Message</h2>
+                        <iframe class="google-form" src="<iframe src="
+                            https://docs.google.com/forms/d/e/1FAIpQLSd4KNXauwI4BN91mVUKL5UGAZCI2OmpdVc9weEBxvjJ2QIN_g/viewform?embedded=true"
+                            width="640" height="686" frameborder="0" marginheight="0"
+                            marginwidth="0">Loading…</iframe>">Loading…</iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Jack's Portfolio</p>
+            </div>
+        </footer>
+    </body>
+
+</html>
