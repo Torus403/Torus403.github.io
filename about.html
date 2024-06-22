@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About Me - Jack's Portfolio</title>
+        <title>Jack McNish - About</title>
         <style>
             body {
                 margin: 0;
@@ -12,10 +12,12 @@
                 display: flex;
                 flex-direction: column;
                 min-height: 100vh;
+                line-height: 1.6;
             }
 
             .container {
                 width: 80%;
+                max-width: 800px;
                 margin: auto;
                 overflow: hidden;
             }
@@ -64,6 +66,33 @@
                 color: #333;
                 text-decoration: none;
             }
+
+            .tag {
+                display: inline-block;
+                padding: 0.2rem 0.8rem;
+                margin-right: 0.5rem;
+                margin-bottom: 0.5rem;
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                font-size: 0.8em;
+            }
+
+            h3 {
+                margin-bottom: 0.5rem;
+            }
+
+            .job-title {
+                font-weight: bold;
+            }
+
+            .job-period {
+                font-style: italic;
+                color: #666;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
         </style>
     </head>
 
@@ -90,18 +119,19 @@
             <section class="content-section">
                 <div class="container">
                     <h2>Brief Bio</h2>
-                    <p>Hello! I'm Jack, a [Your Job Title] based in [Your Location]. I'm passionate about [Your
-                        Interests/Specialties] and dedicated to creating innovative solutions that make a difference.
-                    </p>
+                    <p>Hi! I'm Jack, a Software Engineer based in London. With a background in Civil Engineering and a
+                        passion for technology, I specialize in developing innovative solutions that bridge the gap
+                        between complex problems and elegant code. My experience spans from data-driven insights at
+                        Amazon to cutting-edge transaction reporting technology at Qomply.</p>
                 </div>
             </section>
 
             <section class="content-section">
                 <div class="container">
                     <div class="resume-download">
-                        <h2>Download My Resume</h2>
-                        <p>For a detailed overview of my experience and skills, please download my resume.</p>
-                        <a href="path/to/your/resume.pdf" download>Download Resume (PDF)</a>
+                        <h2>Download My CV</h2>
+                        <p>For a comprehensive overview of my experience and skills, please download my CV.</p>
+                        <a href="cv_22062024.pdf" download>Download CV (PDF)</a>
                     </div>
                 </div>
             </section>
@@ -109,19 +139,67 @@
             <section class="content-section">
                 <div class="container">
                     <h2>Experience</h2>
-                    <h3>[Job Title] at [Company Name]</h3>
-                    <p>[Start Date] - [End Date or Present]</p>
-                    <ul>
-                        <li>[Key responsibility or achievement]</li>
-                        <li>[Key responsibility or achievement]</li>
-                        <li>[Key responsibility or achievement]</li>
-                    </ul>
+                    <h3><span class="job-title">Software Engineer at Qomply</span></h3>
+                    <p class="job-period">July 2023 - Present</p>
+                    <p>Developing next-generation transaction reporting technology, focusing on scalable and efficient
+                        solutions.</p>
+                    <div>
+                        <span class="tag">Python</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">MySQL</span>
+                    </div>
 
-                    <h3>[Previous Job Title] at [Previous Company Name]</h3>
-                    <p>[Start Date] - [End Date]</p>
+                    <h3><span class="job-title">Google Summer of Code Contributor</span></h3>
+                    <p class="job-period">May 2022 - October 2022</p>
+                    <p>Project: Finding Exoplanets with Astronomical Observations</p>
                     <ul>
-                        <li>[Key responsibility or achievement]</li>
-                        <li>[Key responsibility or achievement]</li>
+                        <li>Collaborated with CERN researchers on deep learning systems for exoplanet detection.</li>
+                        <li>Processed and analyzed 100+ GB of lightcurve time-series data.</li>
+                        <li>Achieved 82% accuracy using state-of-the-art time-series classification algorithms.</li>
+                    </ul>
+                    <div>
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Numpy</span>
+                        <span class="tag">PyTorch</span>
+                    </div>
+
+                    <h3><span class="job-title">Data Intern at Amazon</span></h3>
+                    <p class="job-period">June 2022 - September 2022</p>
+                    <ul>
+                        <li>Optimized recruitment datasets and processes using SQL and Python.</li>
+                        <li>Analyzed 60M+ records to provide data-driven insights for hiring process improvements.</li>
+                        <li>Identified opportunities for up to 35% cycle time reduction in hiring processes.</li>
+                    </ul>
+                    <div>
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">SQL</span>
+                    </div>
+
+                    <h3><span class="job-title">Operations and Logistics Intern at Amazon</span></h3>
+                    <p class="job-period">June 2021 - September 2021</p>
+                    <ul>
+                        <li>Optimized fulfillment centre processes, focusing on Kiva robotic storage systems.</li>
+                        <li>Analyzed billion-row datasets using SQL Redshift and Python to improve operational
+                            efficiency.</li>
+                        <li>Proposed improvements resulting in estimated annual savings of £148,000 per fulfillment
+                            centre.</li>
+                    </ul>
+                    <div>
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">SQL Redshift</span>
+                    </div>
+
+                    <h3><span class="job-title">University Advisor for the Young Engineer Program at InvestIN
+                            Education</span></h3>
+                    <p class="job-period">August 2020 - March 2022</p>
+                    <ul>
+                        <li>Mentored students on engineering topics and university applications.</li>
+                        <li>Facilitated creative problem-solving and engineering design challenges.</li>
                     </ul>
                 </div>
             </section>
@@ -129,33 +207,19 @@
             <section class="content-section">
                 <div class="container">
                     <h2>Education</h2>
-                    <h3>[Degree] in [Field of Study]</h3>
-                    <p>[University Name], [Graduation Year]</p>
+                    <h3>MEng. Civil Engineering</h3>
+                    <p><strong>Imperial College London</strong>, 2019 - 2023</p>
                     <ul>
-                        <li>[Relevant coursework, honors, or projects]</li>
-                        <li>[Relevant coursework, honors, or projects]</li>
+                        <li>Upper Second Class (2:1) [67%]</li>
+                        <li>Thesis: "Towards Accurate Simulations of Space-Based Solar Power" [84%]</li>
+                        <li>Runner-up prize for best Transportation paper [2nd/50]</li>
+                        <li>Presented findings at International Energy from Space conference to European Space Agency
+                            (ESA) and UK Chief Scientific Adviser</li>
                     </ul>
-                </div>
-            </section>
 
-            <section class="content-section">
-                <div class="container">
-                    <h2>Skills</h2>
-                    <ul>
-                        <li>[Skill 1]</li>
-                        <li>[Skill 2]</li>
-                        <li>[Skill 3]</li>
-                        <li>[Skill 4]</li>
-                        <li>[Skill 5]</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="content-section">
-                <div class="container">
-                    <h2>Interests & Hobbies</h2>
-                    <p>When I'm not coding, you can find me [Hobby 1], [Hobby 2], or [Hobby 3]. I'm also passionate
-                        about [Interest 1] and [Interest 2].</p>
+                    <h3>French Baccalaureate</h3>
+                    <p><strong>Lycée Français Charles de Gaulle</strong>, 2010 - 2019</p>
+                    <p>High school diploma (A-level equivalent) - Highest Honors [17.87/20] in scientific stream</p>
                 </div>
             </section>
         </main>

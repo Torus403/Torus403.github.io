@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Projects - Jack's Portfolio</title>
+        <title>Jack McNish - Projects</title>
         <style>
             body {
                 margin: 0;
@@ -63,6 +63,20 @@
             .project-links a {
                 margin-right: 1rem;
             }
+
+            .project-tags {
+                margin-top: 1rem;
+            }
+
+            .tag {
+                display: inline-block;
+                padding: 0.2rem 0.8rem;
+                margin-right: 0.5rem;
+                margin-bottom: 0.5rem;
+                border: 1px solid #ddd;
+                border-radius: 20px;
+                font-size: 0.8em;
+            }
         </style>
     </head>
 
@@ -82,44 +96,51 @@
         <main>
             <header class="hero">
                 <div class="container">
-                    <h1>My Projects</h1>
+                    <h1>Projects</h1>
                 </div>
             </header>
 
             <section class="projects-section">
                 <div class="container">
                     <div class="project-card">
-                        <h3>Project Name 1</h3>
-                        <p><strong>Dates:</strong> [Start Date] - [End Date]</p>
-                        <p>Description of the project. Explain what the project does, the technologies used, and your
-                            role in its development.</p>
+                        <h3>Towards Accurate Simulations of Space-Based Solar Power</h3>
+                        <p><strong>Dates:</strong> January 2023 - July 2023</p>
+                        <p>Final year Master's Thesis on developing more precise numerical methods for calculating the
+                            energy production of space-based solar power.</p>
+                        <p>Runner-Up prize for best Transportation paper out of 50 students. Presented findings at
+                            International Energy from Space conference to European Space Agency (ESA) and UK Chief
+                            Scientific
+                            Adviser.</p>
                         <div class="project-links">
-                            <a href="#">GitHub Repo</a>
-                            <a href="#">Live Demo</a>
+                            <a href="https://drive.google.com/file/d/1AOzFaeEqCiCvQgwzv_DpMtMZsjS2VQRv/view">Paper</a>
+                            <a href="https://pypi.org/project/ssppy/">Python Package</a>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Space Engineering</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">MatLab</span>
                         </div>
                     </div>
 
                     <div class="project-card">
-                        <h3>Project Name 2</h3>
-                        <p><strong>Dates:</strong> [Start Date] - [End Date]</p>
-                        <p>Description of the project. Highlight the key features and challenges you overcame during
-                            development.</p>
+                        <h3>Finding Exoplanets with Astronomical Observations</h3>
+                        <p><strong>Dates:</strong> May 2022 - Oct 2022</p>
+                        <p>Google Summer of Code (GSoC) Project on identifying the presence of exoplanets from
+                            open-source
+                            light curve data.</p>
                         <div class="project-links">
-                            <a href="#">GitHub Repo</a>
-                            <a href="#">Project Details</a>
+                            <a
+                                href="https://medium.com/@jackmcnish333/finding-exoplanets-with-astronomical-observations-a-time-series-approach-8c2f8aa9179f">Article</a>
+                            <a href="https://summerofcode.withgoogle.com/archive/2022/projects/y2IVgVAJ">GSoC Page</a>
+                            <a href="https://gist.github.com/Torus403/b98799102002cf463f49e75fb259665f">Github Gist</a>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Time Series</span>
+                            <span class="tag">Data Cleansing</span>
                         </div>
                     </div>
 
-                    <div class="project-card">
-                        <h3>Project Name 3</h3>
-                        <p><strong>Dates:</strong> [Start Date] - [End Date]</p>
-                        <p>Description of the project. Mention any notable achievements or recognition the project
-                            received.</p>
-                        <div class="project-links">
-                            <a href="#">GitHub Repo</a>
-                            <a href="#">Case Study</a>
-                        </div>
-                    </div>
                 </div>
             </section>
         </main>
