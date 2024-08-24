@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #282a36;
+}
+#terminal {
+    height: 100%;
+}
+.terminal {
+    --color: #f8f8f2;
+    --background: #282a36;
+    --size: 1.1;
+    --font: 'Fira Code', monospace;
+}
+.cmd {
+    color: #50fa7b;
+}
+.terminal a {
+    color: #8be9fd;
+}
+.terminal .token {
+    color: #ff79c6;
+}
+.terminal .dir {
+    color: #bd93f9;
+}
+.terminal .error {
+    color: #ff5555;
+}
